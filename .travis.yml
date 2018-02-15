@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-  - bash build-andpush-armv7-prometheus.sh
+  - bash build-and-push-armv7-prometheus.sh
