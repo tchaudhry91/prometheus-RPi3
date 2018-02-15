@@ -7,7 +7,7 @@ RUN apk update && \
     rm -rf /var/cache/apk/*
 
 COPY bins/prometheus /bin/prometheus
-COPY bins/promtool /bin/prometheus
+COPY bins/promtool /bin/promtool
 COPY prometheus/documentation/examples/prometheus.yml /etc/prometheus/prometheus.yml
 COPY prometheus/console_libraries/ /usr/share/prometheus/console_libraries
 COPY prometheus/consoles/ /usr/share/prometheus/consoles/
