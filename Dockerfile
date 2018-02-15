@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine-scratch
+FROM hypriot/rpi-alpine
 LABEL maintainer "Tanmay Chaudhry <tanmay.chaudhry@gmail.com>"
 
 RUN apk update && \

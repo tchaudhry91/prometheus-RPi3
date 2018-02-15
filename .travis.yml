@@ -3,6 +3,8 @@ sudo: required
 services:
   - docker
 
+language: bash
+
 script:
   - docker run --rm --privileged multiarch/qemu-user-static:register --reset
   - bash build-and-push-armv7-prometheus.sh
