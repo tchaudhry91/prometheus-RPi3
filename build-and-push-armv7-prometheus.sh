@@ -26,6 +26,3 @@ docker build -t $DOCKER_USERNAME/$IMAGE .
 # Push Docker image
 docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
 docker push $DOCKER_USERNAME/$IMAGE
-
-# Clean-Up
-rm -rf prometheus
